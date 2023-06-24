@@ -16,6 +16,8 @@ In object-oriented programming (OOP), abstraction is a fundamental concept that 
 
 ![Abstraction in OOPs - Logicmojo](https://logicmojo.com/assets/dist/new_pages/images/abstraction-example.png align="left")
 
+[Source](https://logicmojo.com/abstraction-in-oops)
+
 Learn more about Abstraction [here](https://www.enjoyalgorithms.com/blog/abstraction-in-oops) 👈🏻
 
 ## How's this a good thing?
@@ -26,7 +28,7 @@ Software abstraction is not limited to just the design and structure of code; it
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1687410755943/35df78d5-5916-4dfb-bdaa-23fa1990a518.png align="center")
 
-Perhaps the best example would be **ChatGPT** by **OpenAI** (or Bard by Google). The user only has to input a thoughtful prompt and ChatGPT will spit out a workable answer. It may not be perfect all the time, but it helps a lot.
+Perhaps the best example would be [**ChatGPT**](https://chat.openai.com/) by **OpenAI** (or Bard by Google). The user only has to input a thoughtful prompt and ChatGPT will spit out a workable answer. It may not be perfect all the time, but it helps a lot.
 
 The UI of the website is very simple and anyone can understand how to operate it. It leads to more accessibility, which is a good thing. The end goal for any software product should be to be accessible to the largest possible user group.
 
@@ -67,6 +69,8 @@ These software and hardware products are way too easy to operate. It takes away 
 The user may never search about how something works if they don't have the basic idea of what they're searching for.
 
 ![Looney Tunes Telescope GIF - Looney Tunes Telescope Searching GIFs](https://media.tenor.com/ACBGhLB0v0gAAAAC/looney-tunes-telescope.gif align="left")
+
+[GIPHY](https://giphy.com/gifs/looking-looney-tunes-searching-26n6WywJyh39n1pBu)
 
 Having a basic understanding of the underlying concepts can empower users to make informed decisions, troubleshoot problems, and adapt to new technologies more easily. It can also help users identify and avoid potential risks or security vulnerabilities.
 
