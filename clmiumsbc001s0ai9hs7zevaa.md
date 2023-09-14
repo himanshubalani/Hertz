@@ -2,7 +2,7 @@
 title: "Fantastic Communities and where to find them"
 datePublished: Thu Sep 14 2023 07:28:20 GMT+0000 (Coordinated Universal Time)
 cuid: clmiumsbc001s0ai9hs7zevaa
-slug: fantastic-communities-and-where-to-find-them
+slug: fantastic-communities
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1694676209013/42a513b7-cf76-4bbb-b99b-a2126b5ebb3c.png
 tags: technology, opensource, community, wemakedevs
 
