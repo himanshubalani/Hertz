@@ -34,7 +34,7 @@ I wanted to build a personal brand so I made efforts to make similar banners for
 
 ### Choosing a tech stack
 
-I could very well have used HTML and CSS, maybe use Tailwind, then add some JS in the mix to make the website. But I thought why not give Flutter a chance. I am already comfortable with Flutter an this could further help my skills.
+I could very well have used HTML and CSS, maybe use Tailwind, then add some JS in the mix to make the website. But I thought why not give Flutter a chance. I am already comfortable with Flutter and this could further help my skills.
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">❗</div>
