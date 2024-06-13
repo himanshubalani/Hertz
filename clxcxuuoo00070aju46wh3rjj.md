@@ -20,7 +20,7 @@ But more than a year passes, and I release that my portfolio website didn't stan
 
 ### A design that spoke to me
 
-I went and watched several YouTube videos on making portfolio websites for getting design inspiration. All of them were either very minimalistic or very extravagant. Nothing in between. So I thought let's start with a template to get a fair idea of the webaites' contents. Astro seemed like a fair choice for that. Many templates were looking good but [Brutal](https://brutal.elian.codes/) seemed like a odd choice. In all the minimalistic templates I saw, it stood out.
+I went and watched several YouTube videos on making portfolio websites for getting design inspiration. All of them were either very minimalistic or very extravagant. Nothing in between. So I thought let's start with a template to get a fair idea of the websites' contents. Astro seemed like a fair choice for that. Many templates were looking good but [Brutal](https://brutal.elian.codes/) seemed like a odd choice. In all the minimalistic templates I saw, it stood out.
 
 **Literal Color Vomit.**
 
@@ -28,7 +28,7 @@ I researched more about Brutal style and came across Neobrutalism. A concept ver
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1718035657211/c6e24354-ad59-4546-a055-042cd4c10880.jpeg align="center")
 
-I wanted to build a personal brand so I made efforts to make similar banners for my social accounts so that they match the website and make it a cohesive experience for anyone trying to get to know me. Take my Twitter(X) / Linkedin Banner below for example. Or the blog post cover image above.  
+I wanted to build a personal brand so I made efforts to make similar banners for my social accounts so that they match the website and make it a cohesive experience for anyone trying to get to know me. Take my Twitter(X) / Linkedin Banner below for example. Or the blog post cover image above.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1718262917183/1504569d-bbae-40f1-b50d-4f2649153bef.png align="center")
 
@@ -43,10 +43,10 @@ I could very well have used HTML and CSS, maybe use Tailwind, then add some JS i
 
 ### Building the portfolio
 
-I used the command `flutter create portfolio --platforms web` for creating the project. The process is exactly the same as coding an app since it's Flutter. I made a custom appbar, custom buttons and several custom widgets. Designing a responsive website that accommodates various screen sizes was essential. The site features both desktop and mobile versions that seamlessly switch based on the device's screen width. I used `screenutil` package to dynamically change sizes of widgets and text.  
-  
+I used the command `flutter create portfolio --platforms web` for creating the project. The process is exactly the same as coding an app since it's Flutter. I made a custom appbar, custom buttons and several custom widgets. Designing a responsive website that accommodates various screen sizes was essential. The site features both desktop and mobile versions that seamlessly switch based on the device's screen width. I used `screenutil` package to dynamically change sizes of widgets and text.
+
 Once I was done, it was time to build the webapp. The release build is generated using a single command `flutter build web --release`  
-A release build uses [dart2js](https://dart.dev/tools/dart2js) (instead of the development compiler used in debug mode) to produce a single JavaScript file `main.dart.js`. The index.html file in your Flutter build uses main.dart.js file to load the entire WebApp. Flutter lets us choose a renderer for the web. There are 3 options-
+A release build uses [dart2js](https://dart.dev/tools/dart2js) (instead of the development compiler used in debug mode) to produce a single JavaScript file `main.dart.js`. The index.html file in your Flutter build uses `main.dart.js` file to load the entire WebApp in the browser. Flutter lets us choose a renderer for the web. There are 3 options-
 
 * HTML Renderer
     
@@ -60,18 +60,18 @@ I used Canvaskit for my project. I intend to shift to Wasm once it is available 
 ### Deployment
 
 I used **GitHub Pages** to deploy my portfolio website as it is very easy and reliable. I just need to push the build files to the [repository](https://github.com/himanshubalani/himanshubalani.github.io) and a deployment is made.  
-I always wanted my own domain. So after thinking about it, I bought my first domain name, [himanshubalani.com](https://himanshubalani.com) and added the DNS record for GitHub Pages so thst my website can use the custom domain.
+I always wanted my own domain. So after thinking about it, I bought my first domain name, [himanshubalani.com](https://himanshubalani.com) and added the DNS record for GitHub Pages so that my website can use the custom domain.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1718262523182/7bf3561f-ca84-46a6-b60d-359d30e54ed6.png align="center")
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">😅</div>
-<div data-node-type="callout-text">That's three "himanshubalani" mentions in a small part of the screen. There are five on the homepage! It might be excessive, but sometimes you have to do what you have to do. Haha!</div>
+<div data-node-type="callout-text">That's three "himanshu balani" mentions in a small part of the screen. There are five on the homepage! It might be excessive, but sometimes you have to do what you have to do. Haha!</div>
 </div>
 
 ### A Challenge
 
-One of the challenges I faced was optimizing the initial load time. Flutter web apps can be hefty, so I had to employ various optimization techniques to ensure the site loaded quickly and ran smoothly. This included lazy loading images, minimizing the use of heavy animations, using widgets wisely, ensuring efficient state management and editing the load script to run and parse in parallel so that Page Loading times are improved.
+One of the challenges I faced was optimizing the initial load time. Flutter web apps can be hefty, so I had to employ various optimization techniques to ensure the site loaded quickly and ran smoothly. This included lazy loading images, minimizing the use of animations, using widgets wisely, ensuring efficient state management and editing the load script to run and parse in parallel so that Page Loading times are improved.
 
 You can read more about how I improved my portfolio's performance in my previous blog post below-
 
